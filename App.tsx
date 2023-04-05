@@ -8,11 +8,14 @@ import AnimatedDecay from './src/concept/AnimatedDecay';
 import AnimatedComposing from './src/concept/AnimatedComposing';
 import AnimatedOtherMethod from './src/concept/AnimatedOtherMethod';
 import AnimatedProperty from './src/concept/AnimatedProperty';
+import Snackbar from './src/practice/Snackbar';
+import DrawerMenu from './src/practice/DrawerMenu';
 
 function App(): JSX.Element {
   return (
     <SafeAreaView
-      style={{alignItems: 'center', justifyContent: 'center', flex: 1}}>
+      // style={{alignItems: 'center', justifyContent: 'center', flex: 1}}>
+      style={{flex: 1}}>
       {/* concept components */}
       {/* <AnimatedComponent /> */}
       {/* <AnimateValued /> */}
@@ -21,7 +24,9 @@ function App(): JSX.Element {
       {/* <AnimatedDecay /> */}
       {/* <AnimatedComposing /> */}
       {/* <AnimatedOtherMethod /> */}
-      <AnimatedProperty />
+      {/* <AnimatedProperty /> */}
+      {/* <Snackbar /> */}
+      <DrawerMenu />
     </SafeAreaView>
   );
 }
